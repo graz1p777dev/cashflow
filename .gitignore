@@ -1,0 +1,10 @@
+.vercel
+.DS_Store
+Icon?
+.env
+.env.local
+node_modules/
+*.log
+
+# published as a separate repository
+bot/

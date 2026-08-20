@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#170b20" />
+    <meta name="description" content="Бизнес-игра CASHFLOW в Бишкеке. Тренируй финансовое мышление, рискуя только игровыми деньгами." />
+    <title>CASHFLOW Бишкек — бизнес-игра о деньгах</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23430C61'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-size='42' font-weight='800' fill='%23FFD42A'%3E%24%3C/text%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Russo+One&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="noise" aria-hidden="true"></div>
+
+    <header class="header" id="top">
+      <a class="brand" href="#top" aria-label="Cashflow Club OK4U — на главную">
+        <span>CA$HFLOW</span><small>CLUB OK4U</small>
+      </a>
+      <nav class="nav" aria-label="Основная навигация">
+        <a href="#about">Об игре</a>
+        <a href="#process">Как проходит</a>
+        <a href="#games">Расписание</a>
+        <a href="pravila.html">Правила игры</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <a class="header-cta" href="#games">Выбрать игру <span>↗</span></a>
+      <button class="menu-button" type="button" aria-label="Открыть меню" aria-expanded="false"><span></span><span></span></button>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-glow" aria-hidden="true"></div>
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span></span> CASH FLOW CLUB OK4U</p>
+          <h1 id="hero-title">Управляй <em>деньгами,</em><br />а не тревогой.</h1>
+          <p class="hero-lead">Через игру — к пониманию себя, решений и денег.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#games">Записаться на игру <span>→</span></a>
+            <a class="text-link" href="#process">Как проходит игра <span>↓</span></a>
+          </div>
+          <a class="rules-link" href="pravila.html">Читать правила игры <span>→</span></a>
+          <div class="hero-meta" aria-label="Информация об игре">
+            <div><b>Бишкек</b><span>кофейни по городу</span></div>
+            <div><b>3–4 часа</b><span>одна игровая сессия</span></div>
+            <div><b>4–8</b><span>игроков за столом</span></div>
+          </div>
+        </div>
+        <div class="hero-visual reveal">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="hero-photo">
+            <img src="cashflow box.png" alt="Коробка игры Cashflow" />
+          </div>
+          <div class="money-card money-card-one">ПАССИВНЫЙ ДОХОД <b>+ 12 500</b></div>
+          <div class="money-card money-card-two">АКТИВЫ <b>↑ РАСТУТ</b></div>
+          <div class="round-label"><b>01</b><span>ход<br />за тобой</span></div>
+        </div>
+        <div class="scroll-cue" aria-hidden="true"><span>SCROLL TO PLAY</span><i></i></div>
+      </section>
+
+      <section class="section about" id="about">
+        <div class="section-heading reveal">
+          <p class="eyebrow"><span></span> Не лекция о финансах</p>
+          <h2>Ты принимаешь<br /><em>решения сам.</em></h2>
+          <p class="lead-strong">За 2,5 часа вы узнаете о себе больше, чем за годы проб и ошибок.</p>
+          <p>В игре вы поймёте:</p>
+          <ul class="insight-list">
+            <li>какие решения вас тормозят</li>
+            <li>где вы сливаете деньги и возможности</li>
+            <li>в чём ваша настоящая сила</li>
+          </ul>
+          <p>Cashflow — симулятор финансовой жизни. Здесь видно, как одна маленькая привычка меняет весь денежный сценарий.</p>
+        </div>
+        <div class="skill-grid">
+          <article class="skill-card reveal">
+            <span class="card-index">01</span><div class="skill-icon">₽</div>
+            <h3>Управляй деньгами</h3><p>Получай зарплату, плати расходы и создавай денежный поток.</p>
+          </article>
+          <article class="skill-card reveal">
+            <span class="card-index">02</span><div class="skill-icon">↗</div>
+            <h3>Инвестируй</h3><p>Недвижимость, бизнес, акции и сделки — выбирай свою стратегию.</p>
+          </article>
+          <article class="skill-card reveal">
+            <span class="card-index">03</span><div class="skill-icon">!</div>
+            <h3>Принимай решения</h3><p>Рискуй, ошибайся и проверяй идеи без потери реальных денег.</p>
+          </article>
+        </div>
+        <div class="flow-line reveal" aria-label="Финансовый путь в игре">
+          <span>Зарплата</span><i>→</i><span>Расходы</span><i>→</i><span>Активы</span><i>→</i><span>Пассивный доход</span><i>→</i><b>Свобода</b>
+        </div>
+      </section>
+
+      <section class="anatomy" aria-labelledby="anatomy-title">
+        <img src="cash flow game on table.jpg" alt="Участники играют в Cashflow за столом" />
+        <div class="anatomy-shade"></div>
+        <div class="anatomy-copy reveal">
+          <p class="eyebrow light"><span></span> Анатомия игры</p>
+          <h2 id="anatomy-title">Не просто настольная игра.<br /><em>Симулятор финансовой жизни.</em></h2>
+        </div>
+        <div class="callout c1"><span>01</span> Зарплата и сделки</div>
+        <div class="callout c2"><span>02</span> Продажи и партнёрства</div>
+        <div class="callout c3"><span>03</span> Риски и непредвиденные расходы</div>
+        <div class="callout c4"><span>04</span> Крысиные бега</div>
+      </section>
+
+      <section class="section process" id="process">
+        <div class="section-heading horizontal reveal">
+          <div><p class="eyebrow"><span></span> Один вечер — полный цикл</p><h2>Как проходит <em>игра</em></h2></div>
+          <p>От первого знакомства до момента, когда пассивный доход становится больше расходов.</p>
+        </div>
+        <div class="timeline">
+          <article class="step reveal"><b>01</b><div class="step-icon">●</div><h3>Знакомство</h3><p>Ведущий объясняет правила и механику.</p></article>
+          <article class="step reveal"><b>02</b><div class="step-icon">↻</div><h3>Крысиные бега</h3><p>Работаешь, получаешь зарплату, платишь расходы.</p></article>
+          <article class="step reveal"><b>03</b><div class="step-icon">⇄</div><h3>Сделки</h3><p>Покупаешь активы, инвестируешь, договариваешься.</p></article>
+          <article class="step reveal"><b>04</b><div class="step-icon">↗</div><h3>Денежный поток</h3><p>Пассивный доход начинает покрывать расходы.</p></article>
+          <article class="step reveal"><b>05</b><div class="step-icon">★</div><h3>Победа</h3><p>Ты выходишь из крысиных бегов.</p></article>
+        </div>
+      </section>
+
+      <section class="section pain" aria-labelledby="pain-title">
+        <div class="pain-intro reveal">
+          <p class="eyebrow light"><span></span> Узнаёшь себя?</p>
+          <h2 id="pain-title">Деньги приходят.<br /><em>Но куда они уходят?</em></h2>
+        </div>
+        <div class="pain-list reveal">
+          <div><span>01</span><p>Получаю нормально, но ничего не остаётся</p></div>
+          <div><span>02</span><p>Хочу инвестировать, но боюсь потерять деньги</p></div>
+          <div><span>03</span><p>Не понимаю разницу между активами и обязательствами</p></div>
+          <div><span>04</span><p>Хочу создать дополнительный источник дохода</p></div>
+          <div><span>05</span><p>Есть бизнес, но с личными финансами хаос</p></div>
+        </div>
+        <p class="pain-note reveal">На игре ты увидишь последствия финансовых решений за несколько часов вместо нескольких лет.</p>
+      </section>
+
+      <section class="section audience" aria-labelledby="audience-title">
+        <div class="section-heading reveal">
+          <p class="eyebrow"><span></span> Игра говорит с каждым</p>
+          <h2 id="audience-title">Кому <em>подходит</em></h2>
+        </div>
+        <div class="audience-tabs reveal">
+          <div class="tab-list" role="tablist" aria-label="Категории участников">
+            <button class="tab active" role="tab" aria-selected="true" data-tab="beginners">Начинающим <span>01</span></button>
+            <button class="tab" role="tab" aria-selected="false" data-tab="business">Предпринимателям <span>02</span></button>
+            <button class="tab" role="tab" aria-selected="false" data-tab="employees">Сотрудникам <span>03</span></button>
+            <button class="tab" role="tab" aria-selected="false" data-tab="couples">Парам <span>04</span></button>
+          </div>
+          <div class="tab-panel" id="tab-panel">
+            <span>01 / 04</span><h3>Можно без подготовки</h3><p>Если только начинаешь разбираться в финансах, игра даст понятную картину без сложных терминов.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section games" id="games">
+        <div class="games-heading reveal">
+          <div><p class="eyebrow light"><span></span> Бишкек · Август</p><h2>Ближайшие <em>игры</em></h2></div>
+          <div class="live-label"><i></i> Идёт запись</div>
+        </div>
+        <div class="game-list">
+          <article class="game-card reveal" data-game="13 августа · 18:00">
+            <div class="game-date"><b>13</b><span>августа<br />четверг</span></div>
+            <div class="game-time"><small>Начало</small><b>18:00</b></div>
+            <div class="seats"><small>Свободно</small><div><i></i><i></i><i></i><i class="off"></i><i class="off"></i><i class="off"></i></div><b>3 места</b></div>
+            <div class="game-price"><small>Участие</small><b>2 000 <span>сом</span></b></div>
+            <button class="book-button" type="button">Забронировать <span>→</span></button>
+          </article>
+          <article class="game-card reveal" data-game="15 августа · 15:00">
+            <div class="game-date"><b>15</b><span>августа<br />суббота</span></div>
+            <div class="game-time"><small>Начало</small><b>15:00</b></div>
+            <div class="seats"><small>Свободно</small><div><i></i><i></i><i></i><i></i><i></i><i class="off"></i></div><b>5 мест</b></div>
+            <div class="game-price"><small>Участие</small><b>2 000 <span>сом</span></b></div>
+            <button class="book-button" type="button">Забронировать <span>→</span></button>
+          </article>
+        </div>
+        <p class="games-footnote reveal">Не подходит дата? <a href="https://wa.me/996550500550" target="_blank" rel="noreferrer">Напиши нам</a> — сообщим о следующей игре.</p>
+      </section>
+
+      <section class="atmosphere" aria-labelledby="atmosphere-title">
+        <div class="atmosphere-copy reveal"><p class="eyebrow light"><span></span> Не теория. Живая игра.</p><h2 id="atmosphere-title">Здесь спорят,<br />считают, <em>рискуют.</em></h2></div>
+        <div class="media-grid">
+          <div class="media media-wide reveal"><img src="cash flow game on table.jpg" alt="Игровой стол Cashflow" /></div>
+          <div class="media media-video reveal"><video src="cashflow game video.mp4" autoplay muted loop playsinline aria-label="Видео с игры Cashflow"></video><span>LIVE<br />FROM<br />THE GAME</span></div>
+          <div class="media reveal"><img src="кешфлоу настоле.jpg" alt="Набор Cashflow на столе" /></div>
+        </div>
+      </section>
+
+      <section class="section reviews" aria-labelledby="reviews-title">
+        <div class="section-heading horizontal reveal"><div><p class="eyebrow"><span></span> После игры</p><h2 id="reviews-title">Что меняется<br /><em>в голове</em></h2></div><p>Не обещаем лёгких денег. Помогаем увидеть привычные решения со стороны.</p></div>
+        <div class="review-grid">
+          <blockquote class="review-card featured reveal"><span class="quote">“</span><p>Я впервые увидела, почему высокая зарплата сама по себе ничего не решает.</p><footer><b>Алина</b><span>первая игра · 24 года</span></footer></blockquote>
+          <blockquote class="review-card reveal"><span class="quote">“</span><p>Начал считать не цену покупки, а то, сколько денег она забирает каждый месяц.</p><footer><b>Бекзат</b><span>предприниматель</span></footer></blockquote>
+          <blockquote class="review-card reveal"><span class="quote">“</span><p>Мы с мужем играли по-разному — и наконец спокойно обсудили, почему.</p><footer><b>Айдана</b><span>пришла вместе с супругом</span></footer></blockquote>
+        </div>
+      </section>
+
+      <section class="section host" aria-labelledby="host-title">
+        <div class="host-photo reveal"><img src="cashflow box.png" alt="Ведущий клуба Cashflow Бишкек" /><span>ВЕДУЩИЙ<br />CASHFLOW</span></div>
+        <div class="host-copy reveal">
+          <p class="eyebrow"><span></span> Человек важнее коробки</p>
+          <h2 id="host-title">Игру ведёт<br /><em>не игра.</em></h2>
+          <p>Ведущий помогает разобраться в механике, замечает финансовые сценарии и создаёт пространство, где можно честно проверять стратегии.</p>
+          <div class="host-name"><div><b>Медер Сарлык</b><span>ведущий CASH FLOW CLUB OK4U</span></div><a href="https://www.instagram.com/meder_sarlyk" target="_blank" rel="noreferrer">Instagram ↗</a></div>
+        </div>
+      </section>
+
+      <section class="section faq" id="faq" aria-labelledby="faq-title">
+        <div class="section-heading reveal"><p class="eyebrow"><span></span> Коротко о важном</p><h2 id="faq-title">Вопросы <em>& ответы</em></h2></div>
+        <div class="faq-list">
+          <details class="reveal" open><summary>Нужно ли разбираться в финансах?<span>+</span></summary><p>Нет. Ведущий объяснит правила и термины перед началом. От тебя нужны только любопытство и готовность принимать решения.</p></details>
+          <details class="reveal"><summary>Сколько длится игра?<span>+</span></summary><p>Обычно 3–4 часа, включая знакомство, объяснение правил и небольшое обсуждение после игры.</p></details>
+          <details class="reveal"><summary>Можно прийти одному?<span>+</span></summary><p>Да. Большинство участников знакомятся уже за игровым столом.</p></details>
+          <details class="reveal"><summary>Где проходит игра?<span>+</span></summary><p>В Бишкеке — в кофейнях по городу или в офисе клуба, решаем индивидуально под каждую игру. Точный адрес отправим после бронирования.</p></details>
+          <details class="reveal"><summary>Можно провести корпоративную игру?<span>+</span></summary><p>Да. Напиши нам в Instagram или WhatsApp — согласуем дату, состав участников и формат.</p></details>
+        </div>
+      </section>
+
+      <section class="final-cta">
+        <div class="final-ring" aria-hidden="true"></div>
+        <div class="final-copy reveal">
+          <p>Ты можешь ещё год читать о финансах.</p>
+          <h2>А можешь проверить<br />свои решения <em>за одну игру.</em></h2>
+          <p class="final-slogan">CASH FLOW CLUB OK4U — место, где люди видят себя со стороны.</p>
+          <a class="button button-primary" href="#games">Выбрать ближайшую игру <span>→</span></a>
+        </div>
+        <div class="final-brand" aria-hidden="true">CA$HFLOW</div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="brand"><span>CA$HFLOW</span><small>CLUB OK4U</small></div>
+      <div><span>Бишкек</span><a href="#faq">Кофейни по городу ↗</a></div>
+      <div><span>Мы в соцсетях</span><a href="https://www.instagram.com/cashflow.ok4u" target="_blank" rel="noreferrer">@cashflow.ok4u ↗</a></div>
+      <div><span>Сайт разработал</span><a href="https://alihan-torebekov.kg" target="_blank" rel="noreferrer">alihan-torebekov.kg ↗</a></div>
+      <a class="back-top" href="#top" aria-label="Наверх">↑</a>
+    </footer>
+
+    <dialog class="booking-modal" id="booking-modal">
+      <button class="modal-close" type="button" aria-label="Закрыть">×</button>
+      <p class="eyebrow"><span></span> Бронь места</p>
+      <h2>Ты в одном шаге<br />от <em>игрового стола.</em></h2>
+      <p class="chosen-game" id="chosen-game">13 августа · 18:00</p>
+      <form id="booking-form">
+        <label>Имя<input type="text" name="name" placeholder="Как к тебе обращаться?" required /></label>
+        <label>Телефон / WhatsApp<input type="tel" name="phone" placeholder="+996 ___ ___ ___" required /></label>
+        <label>Участники<select name="guests"><option>1 участник</option><option>2 участника</option><option>3 участника</option><option>4 участника</option></select></label>
+        <button class="button button-primary" type="submit">Отправить заявку <span>→</span></button>
+        <small>Нажимая кнопку, ты соглашаешься на обработку данных.</small>
+      </form>
+      <div class="success-message" hidden><div>✓</div><h3>Заявка принята</h3><p>Мы свяжемся с тобой, чтобы подтвердить место.</p></div>
+    </dialog>
+
+    <script src="script.js"></script>
+  </body>
+</html>
